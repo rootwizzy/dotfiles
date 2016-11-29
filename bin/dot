@@ -4,8 +4,8 @@
 #
 # `dot` handles installation, updates, things like that. Run it periodically
 # to make sure you're on the latest and greatest.
-export ZSH=$HOME/.dotfiles
+export DOTFILES=$HOME/.dotfiles
 
 # Install software
-echo "› $ZSH/script/install"
-$ZSH/script/install
+#echo "› $ZSH/script/install"
+#$ZSH/script/install

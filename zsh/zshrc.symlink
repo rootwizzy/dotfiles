@@ -2,8 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/wizzy/.oh-my-zsh
-  export PATH=$PATH:$HOME/.dotfiles/bin
+export ZSH=/home/wizzy/.oh-my-zsh
+export PATH=$PATH:$HOME/.dotfiles/bin
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -33,7 +33,7 @@ ZSH_THEME="agnoster"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-COMPLETION_WAITING_DOTS="true"
+# COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -84,3 +84,49 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+export DOTFILES=$HOME/.dotfiles
+
+# # Stash your environment variables in ~/.localrc. This means they'll stay out
+# # of your main dotfiles repository (which may be public, like this one), but
+# # you'll have access to them in your scripts.
+# if [[ -a ~/.localrc ]]
+# then
+#   source ~/.localrc
+# fi
+
+# # all of our zsh files
+typeset -U config_files
+config_files=($DOTFILES/**/*.zsh)
+
+# # load the path files
+for file in ${(M)config_files:#*/path.zsh}
+do
+  source $file
+done
+
+# # load everything but the path and completion files
+for file in ${${config_files:#*/path.zsh}:#*/completion.zsh}
+do
+  if [[ $file = *"oh-my-zsh"* ]]
+  then
+    continue
+  else
+    source $file
+  fi
+done
+
+# # initialize autocomplete here, otherwise functions won't be loaded
+autoload -U compinit
+compinit
+
+# # load every completion after autocomplete loads
+for file in ${(M)config_files:#*/completion.zsh}
+do
+  source $file
+done
+
+unset config_files
+export NVM_DIR="/home/wizzy/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
