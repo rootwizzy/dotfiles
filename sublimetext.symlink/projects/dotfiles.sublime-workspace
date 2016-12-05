@@ -8,10 +8,19 @@
 	"buffers":
 	[
 		{
-			"file": "/home/wizzy/.dotfiles/git/gitconfig.symlink",
+			"file": "/home/wizzy/.dotfiles/system/aliases.zsh",
 			"settings":
 			{
-				"buffer_size": 1119,
+				"buffer_size": 266,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/wizzy/.dotfiles/zsh/aliases.zsh",
+			"settings":
+			{
+				"buffer_size": 146,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -60,30 +69,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/wizzy/.dotfiles"
+		"/home/wizzy/.dotfiles",
+		"/home/wizzy/.dotfiles/system",
+		"/home/wizzy/.dotfiles/zsh"
 	],
 	"file_history":
 	[
-		"/home/wizzy/.ssh/authorized_keys",
-		"/home/wizzy/Desktop/ember20/apps-rails/orchid/config/secrets.yml",
-		"/home/wizzy/Desktop/ember20/apps-rails/totem-docs/app/assets/stylesheets/variables/_modules.scss",
-		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/app/assets/stylesheets/totem/lodestar/modules/markdown.scss",
-		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/app/assets/stylesheets/totem/lodestar/modules/article.scss",
-		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/totem/lodestar/version.rb",
-		"/home/wizzy/.bashrc",
-		"/home/wizzy/Desktop/ember20/apps-ember/orchid/package.json",
-		"/home/wizzy/Desktop/ember20/apps-ember/orchid/ember-cli-build.js",
-		"/home/wizzy/Desktop/ember20/apps-node/orchid/app.js",
-		"/home/wizzy/Desktop/ember20/apps-rails/orchid/config/environments/development.rb",
-		"/home/wizzy/Desktop/ember20/apps-node/orchid/node_env",
-		"/home/wizzy/Desktop/ember20/apps-ember/orchid/config/environment.js",
-		"/home/wizzy/Desktop/ember20/apps-ember/orchid/node_modules/ember-cli/node_modules/broccoli-builder/lib/builder.js",
-		"/home/wizzy/Desktop/ember20/apps-node/orchid/index.js",
-		"/home/wizzy/Desktop/ember20/apps-node/orchid/README.md",
-		"/home/wizzy/Desktop/ember20/apps-node/app.js",
-		"/home/wizzy/.ssh/id_rsa.pub",
-		"/home/wizzy/.cinnamon/glass.log",
-		"/home/wizzy/.xsession-errors"
+		"/home/wizzy/.dotfiles/system/aliases.zsh",
+		"/home/wizzy/.config/sublime-text-3/Local/Session.sublime_session"
 	],
 	"find":
 	{
@@ -102,6 +95,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"function totem-start-ember-server",
+			"function totem-open-servers",
+			"/.dotfiles/bin",
 			"app-rails",
 			"ember-welcome"
 		],
@@ -121,34 +117,60 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/wizzy/.dotfiles/git/gitconfig.symlink",
+					"file": "/home/wizzy/.dotfiles/system/aliases.zsh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1119,
+						"buffer_size": 266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1119,
-								1119
+								266,
+								266
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 840.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/wizzy/.dotfiles/zsh/aliases.zsh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -224,7 +246,7 @@
 		[
 			[
 				"",
-				"~/.sublime_projects/dotfiles.sublime-project"
+				"~/.dotfiles/sublimetext.symlink/projects/ember20.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -33,15 +33,19 @@
 #   done
 # }
 
+
+  # gnome-terminal  --tab -e 'zsh -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-start-rails-server;\")"' \
+  #                 --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-navigate-rails-server;\")"' \
+  #                 --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-navigate-rails-server;\")"' \
+  #                 --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-start-ember-server;\")"' \
+  #                 --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-start-oauth-server;\")"' \
+  #                 --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-start-sio-server;\")"' \
+
+
 # ##### Totem
 # ### Totem::Shared
 function totem-open-servers {
-  gnome-terminal  --tab -e 'zsh -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-start-rails-server;\")"' \
-                  --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-navigate-rails-server;\")"' \
-                  --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-navigate-rails-server;\")"' \
-                  --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-start-ember-server;\")"' \
-                  --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-start-oauth-server;\")"' \
-                  --tab -e 'bash -c "bash --init-file <(echo \". ~/.bash_profile; . ~/.bashrc; totem-start-sio-server;\")"'
+  gnome-terminal --tab
 }
 function totem-start-ember-server {
   totem-navigate-ember-server
