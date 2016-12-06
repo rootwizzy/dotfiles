@@ -65,3 +65,5 @@
   untracked = cyan
 
 
+[commit]
+	template = /home/wizzy/.git_commit_template.txt
