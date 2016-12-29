@@ -45,7 +45,7 @@
 # ##### Totem
 # ### Totem::Shared
 function totem-open-servers {
-  gnome-terminal --tab
+  gnome-terminal --tab -x 'totem-start-rails-server'
 }
 function totem-start-ember-server {
   totem-navigate-ember-server
@@ -56,6 +56,7 @@ function totem-start-ember-server {
 function totem-start-rails-server {
   totem-navigate-rails-server
   printf "[Totem] Starting Rails (API) server from $TOTEM_RAILS_SERVER..."
+  echo $TOTEM_IP
   rails s --binding $TOTEM_IP
 }
 function totem-start-oauth-server {
@@ -104,7 +105,7 @@ function totem-navigate-production {
 
 # ### Totem::Modern
 function totem-set-env {
-  export TOTEM_IP=192.168.1.44
+  export TOTEM_IP=192.168.59.130
   export TOTEM_RUBY=2.3.1
   export TOTEM_GEMSET=rails5
   export TOTEM_OAUTH_GEMSET=rails5
@@ -133,7 +134,7 @@ function totem-start-otbl {
 
 # ### Totem::Legacy
 function totem-set-legacy-env {
-  export TOTEM_IP=192.168.1.44
+  export TOTEM_IP=192.168.59.130
   export TOTEM_RUBY=2.3.1
   export TOTEM_GEMSET=rails4
   export TOTEM_OAUTH_GEMSET=rails5

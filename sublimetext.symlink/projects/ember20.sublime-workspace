@@ -8,28 +8,30 @@
 	"buffers":
 	[
 		{
-			"file": "/home/wizzy/Desktop/ember20/repos/etotem-client/LICENSE.md",
+			"contents": "text:\n  title:     Totem docs\n  sub-title: Building software one stack at a time\nmodules:\n  layout:\n    full_width:\n      enabled: true\n      default: true\n\n  versions:\n    index_redirect: true\n\n  side_bar:\n    collapse:\n      enabled:        true\n      expanded_icon:  'fa fa-minus right'\n      collapsed_icon: 'fa fa-plus right'\n\n  table_of_contents:\n    smooth_scroll:\n      enabled: true\n      speed:   300 # Milliseconds\n    highlight: \n      enabled: true\n\n  api:      \n    repositories:\n      - name: ethinkspace-client\n        url: 'https://github.com/sixthedge/ethinkspace-client'\n        branch: master\n      - name: ethinkspace-api\n        url: 'https://github.com/sixthedge/ethinkspace-api'\n        branch: master\n\n ",
+			"file": "/home/wizzy/Desktop/ember20/apps-rails/totem-docs/config/settings.yml",
+			"file_size": 723,
+			"file_write_time": 131260601013212661,
 			"settings":
 			{
-				"buffer_size": 1053,
+				"buffer_size": 728,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/wizzy/Desktop/ember20/repos/ethinkspace-client/README.md",
+			"file": "/home/wizzy/Desktop/ember20/apps-rails/totem-docs/.gitignore",
 			"settings":
 			{
-				"buffer_size": 328,
-				"encoding": "UTF-8",
+				"buffer_size": 630,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/wizzy/Desktop/ember20/repos/ethinkspace-client/CONTRIBUTING.md",
+			"file": "/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/tasks/totem/lodestar/helpers/api_generator.rb",
 			"settings":
 			{
-				"buffer_size": 3998,
+				"buffer_size": 483,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -42,7 +44,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 216.0,
+		"height": 174.0,
 		"last_filter": "install",
 		"selected_items":
 		[
@@ -55,7 +57,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 431.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -79,17 +81,72 @@
 	"expanded_folders":
 	[
 		"/home/wizzy/Desktop/ember20",
+		"/home/wizzy/Desktop/ember20/apps-ember",
 		"/home/wizzy/Desktop/ember20/apps-rails",
-		"/home/wizzy/Desktop/ember20/apps-rails/opentbl-com",
-		"/home/wizzy/Desktop/ember20/apps-rails/opentbl-com/app",
-		"/home/wizzy/Desktop/ember20/apps-rails/opentbl-com/app/assets",
-		"/home/wizzy/Desktop/ember20/apps-rails/opentbl-com/app/views",
-		"/home/wizzy/Desktop/ember20/apps-rails/opentbl-com/app/views/landing",
-		"/home/wizzy/Desktop/ember20/apps-rails/opentbl-com/app/views/layouts",
-		"/home/wizzy/Desktop/ember20/apps-rails/totem-docs/config"
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-docs",
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-docs/app/assets/javascripts",
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-docs/config",
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-oauth/db",
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-oauth/db/migrate",
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-oauth/db/production_data",
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-oauth/db/test_data",
+		"/home/wizzy/Desktop/ember20/repos",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-api/thinkspace-html/app",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-api/thinkspace-html/app/controllers",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-api/thinkspace-html/app/controllers/thinkspace",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-api/thinkspace-html/app/controllers/thinkspace/html",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-api/thinkspace-html/app/controllers/thinkspace/html/api",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-artifact/addon",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-artifact/addon/components",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-artifact/addon/initializers",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-builder/addon",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-builder/addon/components",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-builder/addon/templates/components",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-builder-pe/addon",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-builder-pe/addon/services",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-case/addon",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-common/app/services",
+		"/home/wizzy/Desktop/ember20/repos/etotem-client/totem-application/app",
+		"/home/wizzy/Desktop/ember20/repos/etotem-client/totem-application/app/services/ttz",
+		"/home/wizzy/Desktop/ember20/repos/etotem-client/totem-application/app/services/ttz/zones",
+		"/home/wizzy/Desktop/ember20/repos/etotem-client/totem-base/addon/components",
+		"/home/wizzy/Desktop/ember20/repos/etotem-client/totem-engines",
+		"/home/wizzy/Desktop/ember20/repos/etotem-client/totem-engines/addon",
+		"/home/wizzy/Desktop/ember20/repos/groc",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/app/assets/javascripts/vendor",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/generators/totem",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/generators/totem/lodestar",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/generators/totem/lodestar/install",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/generators/totem/lodestar/install/templates",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/tasks",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/tasks/totem",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/tasks/totem/lodestar",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/tasks/totem/lodestar/helpers",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/totem/lodestar"
 	],
 	"file_history":
 	[
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/tasks/totem/lodestar/generate.rake",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/tasks/totem/lodestar/helpers/guides_generator.rb",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/totem-lodestar.gemspec",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/package.json",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/generators/totem/lodestar/install/javascripts_generator.rb",
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-docs/app/assets/javascripts/application.js",
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-docs/.travis.yml",
+		"/home/wizzy/Desktop/ember20/repos/totem-lodestar/.gitignore",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-builder/addon/controllers/new.coffee",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-builder/addon/components/new.coffee",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-common/app/components/--file-upload.coffee",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-common/app/components/confirmation/modal.coffee",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/doc/script.js",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-readiness-assurance/addon/_config.coffee",
+		"/home/wizzy/Desktop/ember20/apps-rails/totem-docs/public/documents/1.0.0/03_Guides/04_Ember/01_Ember Engines.md",
+		"/home/wizzy/Desktop/ember20/apps-ember/orchid/config/environment.js",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-case/addon/routes/show.coffee",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/CONTRIBUTING.md",
+		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/README.md",
+		"/home/wizzy/Desktop/ember20/repos/etotem-client/LICENSE.md",
 		"/home/wizzy/Desktop/ember20/repos/ethinkspace-api/README.md",
 		"/home/wizzy/Desktop/ember20/repos/ethinkspace-api/CONTRIBUTING.md",
 		"/home/wizzy/Desktop/ember20/repos/ethinkspace-api/LICENSE.md",
@@ -113,7 +170,6 @@
 		"/home/wizzy/Desktop/ember20/apps-rails/opentbl-com/app/controllers/landing_controller.rb",
 		"/home/wizzy/Documents/Mint Install.md",
 		"/home/wizzy/Desktop/ember20/apps-rails/opentbl-com/app/controllers/landing/index.rb",
-		"/home/wizzy/Desktop/ember20/apps-rails/totem-docs/public/documents/1.0.0/03_Guides/04_Ember/01_Ember Engines.md",
 		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-dock/package.json",
 		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-common/package.json",
 		"/home/wizzy/Desktop/ember20/repos/ethinkspace-client/thinkspace-diagnostic-expert-path/package.json",
@@ -169,7 +225,6 @@
 		"/home/wizzy/Desktop/ember20/apps-node/orchid/app.js",
 		"/home/wizzy/Desktop/ember20/apps-rails/orchid/config/environments/development.rb",
 		"/home/wizzy/Desktop/ember20/apps-node/orchid/node_env",
-		"/home/wizzy/Desktop/ember20/apps-ember/orchid/config/environment.js",
 		"/home/wizzy/Desktop/ember20/apps-ember/orchid/node_modules/ember-cli/node_modules/broccoli-builder/lib/builder.js",
 		"/home/wizzy/Desktop/ember20/apps-node/orchid/index.js",
 		"/home/wizzy/Desktop/ember20/apps-node/orchid/README.md",
@@ -196,6 +251,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'modal_id'",
+			"add_engines",
 			"thinkspace-client",
 			"app-rails",
 			"ember-welcome"
@@ -217,57 +274,31 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/wizzy/Desktop/ember20/repos/etotem-client/LICENSE.md",
+					"file": "/home/wizzy/Desktop/ember20/apps-rails/totem-docs/config/settings.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1053,
+						"buffer_size": 728,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								728,
+								728
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/wizzy/Desktop/ember20/repos/ethinkspace-client/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 328,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								328,
-								328
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -277,33 +308,66 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/home/wizzy/Desktop/ember20/repos/ethinkspace-client/CONTRIBUTING.md",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "/home/wizzy/Desktop/ember20/apps-rails/totem-docs/.gitignore",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3998,
+						"buffer_size": 630,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3973,
-								3973
+								630,
+								630
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2040.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/home/wizzy/Desktop/ember20/repos/totem-lodestar/lib/tasks/totem/lodestar/helpers/api_generator.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -326,11 +390,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -397,8 +468,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 339.0,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
